@@ -2,10 +2,25 @@ body {
   margin: 0;
 }
 
-#main-content {
-  font-family: sans-serif;
-  margin: 30% auto;
-  height: 40%;
+#top-nav {
+  padding: 0;
   width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  /*border: 1px solid blue;*/
   text-align: center;
+}
+
+#top-nav li {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 50px;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+#logo {
+  /*border: 1px solid red;*/
+  height: 100px;
 }
