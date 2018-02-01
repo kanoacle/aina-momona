@@ -2,6 +2,25 @@ body {
   margin: 0;
 }
 
+@keyframes image-change {
+  0%  {background-image: url(../img/homepage1.jpg)}
+  15% {background-image: url(../img/homepage2.jpg)}
+  30% {background-image: url(../img/homepage4.png)}
+  45% {background-image: url(../img/homepage5.jpg)}
+  55% {background-image: url(../img/homepage6.jpg)}
+  70% {background-image: url(../img/homepage7.jpg)}
+  80% {background-image: url(../img/homepage8.jpg)}
+  90% {background-image: url(../img/homepage9.jpg)}
+
+}
+
+#home-images {
+  /*border: 1px solid yellow;*/
+  background-size: cover;
+  height: 50vh;
+  animation: image-change 60s infinite;
+}
+
 #top-nav {
   width: 100%;
   position: absolute;
