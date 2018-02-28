@@ -3,61 +3,74 @@ body {
 }
 
 @keyframes image-change {
-  0%  {background-image: url(../img/homepage1.jpg)}
-  15% {background-image: url(../img/homepage2.jpg)}
-  30% {background-image: url(../img/homepage4.png)}
-  45% {background-image: url(../img/homepage5.jpg)}
-  55% {background-image: url(../img/homepage6.jpg)}
-  70% {background-image: url(../img/homepage7.jpg)}
-  80% {background-image: url(../img/homepage8.jpg)}
-  90% {background-image: url(../img/homepage9.jpg)}
-  100% {background-image: url(../img/homepage1.jpg)}
-
+  0%   {background-image: url(../img/IMG_2367.jpg)}
+  10%  {background-image: url(../img/IMG_2367.jpg)}
+  20%  {background-image: url(../img/IMG_2368.jpg)}
+  30%  {background-image: url(../img/IMG_2368.jpg)}
+  40%  {background-image: url(../img/IMG_2365.jpg)}
+  50%  {background-image: url(../img/IMG_2365.jpg)}
+  60%  {background-image: url(../img/IMG_4265.png)}
+  70%  {background-image: url(../img/IMG_4265.png)}
+  80%  {background-image: url(../img/IMG_2369.jpg)}
+  90%  {background-image: url(../img/IMG_2369.jpg)}
+  100% {background-image: url(../img/IMG_2367.jpg)}
 }
 
-#home-images {
+#home-page {
   /*border: 1px solid yellow;*/
-  background-size: cover;
-  height: 50vh;
-  animation: image-change 60s infinite;
+  height: 100vh;
+  max-height: 100vh;
+  width: initial;
+  background-size: 100%;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  animation: image-change 30s infinite;
 }
 
 #top-nav {
   width: 100%;
-  position: absolute;
-  top: 50%;
+  height: 65px;
+  position: relative;
+  background-color: white;
+  /*top: 50%;*/
   /*transform: translateY(-25%);*/
   /*border: 1px solid blue;*/
   font-family: serif;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 #top-nav ul {
+  position: absolute;
+  right: 15px;
+  top: 15px;
   margin: 10px;
   padding: 0;
   /*border: 1px solid green;*/
+  display: inline-block;
+  vertical-align: middle;
 }
 
 #top-nav h1 {
+  display: inline-block;
   text-align: center;
-  margin: 0;
+  margin: 15px 15px 0;
   /*border: 1px solid pink;*/
   font-weight: 300;
-  font-size: 40px;
+  font-size: 28px;
   text-transform: uppercase;
 }
 
 #top-nav li {
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: bottom;
   margin-right: 50px;
   font-size: 16px;
   text-transform: uppercase;
   cursor: pointer;
 }
-
+/*
 #logo {
   margin: 0;
-  /*border: 1px solid red;*/
+  border: 1px solid red;
   height: 100px;
-}
+}*/
