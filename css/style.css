@@ -17,17 +17,17 @@ a:visited, a:after {
 }
 
 @keyframes image-change {
-  0%   {background-image: url(../img/IMG_4265.JPG)}
-  10%  {background-image: url(../img/IMG_4265.JPG)}
-  20%  {background-image: url(../img/fishscale-home.jpg)}
-  30%  {background-image: url(../img/fishscale-home.jpg)}
-  40%  {background-image: url(../img/IMG_236B.jpg)}
-  50%  {background-image: url(../img/IMG_236B.jpg)}
-  60%  {background-image: url(../img/cup-set-bleeding.jpg)}
-  70%  {background-image: url(../img/cup-set-bleeding.jpg)}
-  80%  {background-image: url(../img/IMG_2365.jpg)}
-  90%  {background-image: url(../img/IMG_2365.jpg)}
-  100% {background-image: url(../img/IMG_4265.JPG)}
+  0%   {background-image: url(../img/bowls/image-4.jpg)}
+  10%  {background-image: url(../img/bowls/image-4.jpg)}
+  20%  {background-image: url(../img/fish/image-9.jpg)}
+  30%  {background-image: url(../img/fish/image-9.jpg)}
+  40%  {background-image: url(../img/plates/image-6.jpg)}
+  50%  {background-image: url(../img/plates/image-6.jpg)}
+  60%  {background-image: url(../img/cups/image-12.jpg)}
+  70%  {background-image: url(../img/cups/image-12.jpg)}
+  80%  {background-image: url(../img/crocks/image-5.jpg)}
+  90%  {background-image: url(../img/crocks/image-5.jpg)}
+  100% {background-image: url(../img/bowls/image-4.JPG)}
 }
 @keyframes clear-image-change {
   0%   {background-image: url(../img/IMG_4265-clear.png)}
