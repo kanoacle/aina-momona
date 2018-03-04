@@ -2,6 +2,11 @@ body {
   margin: 0;
 }
 
+a, a:visited, a:after {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
 @keyframes image-change {
   0%   {background-image: url(../img/IMG_2367.jpg)}
   10%  {background-image: url(../img/IMG_2367.jpg)}
@@ -14,6 +19,10 @@ body {
   80%  {background-image: url(../img/IMG_2365.jpg)}
   90%  {background-image: url(../img/IMG_2365.jpg)}
   100% {background-image: url(../img/IMG_2367.jpg)}
+}
+
+#main-header {
+  cursor: pointer;
 }
 
 #home-image {
