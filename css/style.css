@@ -7,24 +7,27 @@ body {
   10%  {background-image: url(../img/IMG_2367.jpg)}
   20%  {background-image: url(../img/IMG_2368.jpg)}
   30%  {background-image: url(../img/IMG_2368.jpg)}
-  40%  {background-image: url(../img/IMG_2365.jpg)}
-  50%  {background-image: url(../img/IMG_2365.jpg)}
-  60%  {background-image: url(../img/IMG_4265.png)}
-  70%  {background-image: url(../img/IMG_4265.png)}
-  80%  {background-image: url(../img/IMG_2369.jpg)}
-  90%  {background-image: url(../img/IMG_2369.jpg)}
+  40%  {background-image: url(../img/IMG_2369.jpg)}
+  50%  {background-image: url(../img/IMG_2369.jpg)}
+  60%  {background-image: url(../img/IMG_4265.jpg)}
+  70%  {background-image: url(../img/IMG_4265.jpg)}
+  80%  {background-image: url(../img/IMG_2365.jpg)}
+  90%  {background-image: url(../img/IMG_2365.jpg)}
   100% {background-image: url(../img/IMG_2367.jpg)}
 }
 
-#home-page {
+#home-image {
   /*border: 1px solid yellow;*/
-  height: 100vh;
-  max-height: 100vh;
-  width: initial;
-  background-size: 100%;
-  margin: 0 auto;
+  height: 346px;
+  width: 518px;
+  background-size: cover;
+  margin: 0;
   background-repeat: no-repeat;
   animation: image-change 30s infinite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
 }
 
 #top-nav {
