@@ -10,12 +10,12 @@ a, a:visited, a:after {
 @keyframes image-change {
   0%   {background-image: url(../img/IMG_2367.jpg)}
   10%  {background-image: url(../img/IMG_2367.jpg)}
-  20%  {background-image: url(../img/IMG_2368.jpg)}
-  30%  {background-image: url(../img/IMG_2368.jpg)}
+  20%  {background-image: url(../img/IMG_236B.jpg)}
+  30%  {background-image: url(../img/IMG_236B.jpg)}
   40%  {background-image: url(../img/IMG_2369.jpg)}
   50%  {background-image: url(../img/IMG_2369.jpg)}
-  60%  {background-image: url(../img/IMG_4265.jpg)}
-  70%  {background-image: url(../img/IMG_4265.jpg)}
+  60%  {background-image: url(../img/cup-set-bleeding.jpg)}
+  70%  {background-image: url(../img/cup-set-bleeding.jpg)}
   80%  {background-image: url(../img/IMG_2365.jpg)}
   90%  {background-image: url(../img/IMG_2365.jpg)}
   100% {background-image: url(../img/IMG_2367.jpg)}
