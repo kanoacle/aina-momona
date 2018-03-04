@@ -2,7 +2,12 @@ body {
   margin: 0;
 }
 
-a, a:visited, a:after {
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited, a:after {
   text-decoration: none !important;
   color: inherit !important;
 }
@@ -75,44 +80,6 @@ a, a:visited, a:after {
   vertical-align: middle;
 }
 
-@media screen and (max-width: 775px) {
-  #top-nav ul {
-    position: absolute;
-    right: 15px;
-    top: 75px;
-    margin: 25px;
-    padding: 0;
-    /*border: 1px solid green;*/
-    display: block;
-    vertical-align: middle;
-  }
-  #top-nav h1 {
-    display: inline-block;
-    text-align: center;
-    margin: 15px 15px 0;
-    /*border: 1px solid pink;*/
-    font-weight: 300;
-    font-size: 28px;
-    text-transform: uppercase;
-  }
-  #top-nav li {
-    display: inline-block;
-    vertical-align: bottom;
-    margin-right: 50px;
-    font-size: 16px;
-    text-transform: uppercase;
-    cursor: pointer;
-  }
-  .head1 {
-    /*border: 1px solid orange;*/
-    text-align: center;
-    margin-top: 100px;
-    font-family: sans-serif;
-    font-weight: 500;
-    font-size: 28px;
-  }
-}
-
 #top-nav h1 {
   display: inline-block;
   text-align: center;
@@ -144,5 +111,59 @@ a, a:visited, a:after {
   margin-top: 50px;
   font-family: sans-serif;
   font-weight: 500;
-  font-size: 28px;
+  font-size: 24px;
+}
+
+#top-nav ul a:hover {
+  text-decoration: underline !important;
+  text-decoration-style: solid;
+}
+
+#top-nav ul a.active {
+  text-decoration: underline !important;
+  text-decoration-style: double !important;
+}
+
+
+@media screen and (max-width: 775px) {
+  #top-nav ul {
+    width: 90%;
+    padding: 0;
+    /*border: 1px solid green;*/
+    display: block;
+    margin: 25px auto;
+    text-align: justify;
+    position: static;
+  }
+  #top-nav ul:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+  }
+
+  #top-nav h1 {
+    display: block;
+    text-align: center;
+    margin: 15px 15px 0;
+    /*border: 1px solid pink;*/
+    font-weight: 300;
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+  #top-nav li {
+    display: inline-block;
+    vertical-align: bottom;
+    margin: 5px 9px;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .head1 {
+    /*border: 1px solid orange;*/
+    text-align: center;
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+  }
 }
