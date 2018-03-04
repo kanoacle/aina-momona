@@ -12,6 +12,10 @@ a:visited, a:after {
   color: inherit !important;
 }
 
+.page-txt {
+  font-family: sans-serif;
+}
+
 @keyframes image-change {
   0%   {background-image: url(../img/IMG_4265.JPG)}
   10%  {background-image: url(../img/IMG_4265.JPG)}
@@ -124,6 +128,37 @@ a:visited, a:after {
   text-decoration-style: double !important;
 }
 
+#contact-image {
+  /*border: 1px solid yellow;*/
+  height: 300px;
+  width: 300px;
+  margin: 0;
+  background: url(../img/spiral-momona-bowl-top.JPG);
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-65%) translateX(-50%);
+}
+
+.contact-txt {
+  line-height: 2;
+  /*border: 1px solid maroon;*/
+  position: absolute;
+  left: 50%;
+  bottom: 20%;
+  transform: translateX(-50%);
+}
+
+.about-content {
+  width: 80%;
+  max-width: 775px;
+  margin: 100px auto 25px;
+  text-indent: 50px;
+  line-height: 1.5;
+}
+
+
 
 @media screen and (max-width: 775px) {
   #top-nav ul {
@@ -165,5 +200,13 @@ a:visited, a:after {
     font-family: sans-serif;
     font-weight: 500;
     font-size: 20px;
+  }
+
+  .about-content {
+    width: 80%;
+    max-width: 775px;
+    margin: 50px auto;
+    text-indent: 50px;
+    line-height: 1.5;
   }
 }
