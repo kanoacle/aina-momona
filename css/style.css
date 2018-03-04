@@ -18,7 +18,20 @@ a, a:visited, a:after {
   70%  {background-image: url(../img/cup-set-bleeding.jpg)}
   80%  {background-image: url(../img/IMG_2365.jpg)}
   90%  {background-image: url(../img/IMG_2365.jpg)}
-  100% {background-image: url(../img/IMG_2367.jpg)}
+  100% {background-image: url(../img/IMG_4265.JPG)}
+}
+@keyframes clear-image-change {
+  0%   {background-image: url(../img/IMG_4265-clear.png)}
+  10%  {background-image: url(../img/IMG_4265-clear.png)}
+  20%  {background-image: url(../img/fishscale-home-clear.png)}
+  30%  {background-image: url(../img/fishscale-home-clear.png)}
+  40%  {background-image: url(../img/IMG_236B-clear.png)}
+  50%  {background-image: url(../img/IMG_236B-clear.png)}
+  60%  {background-image: url(../img/cup-set-bleeding-clear.png)}
+  70%  {background-image: url(../img/cup-set-bleeding-clear.png)}
+  80%  {background-image: url(../img/IMG_2365-clear.png)}
+  90%  {background-image: url(../img/IMG_2365-clear.png)}
+  100% {background-image: url(../img/IMG_4265-clear.png)}
 }
 
 #main-header {
