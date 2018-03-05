@@ -17,8 +17,8 @@ a:visited, a:after {
 }
 
 @keyframes image-change {
-  0%   {background-image: url(../img/bowls/image-4.jpg)}
-  10%  {background-image: url(../img/bowls/image-4.jpg)}
+  0%   {background-image: url(../img/bowls/image-29.jpg)}
+  10%  {background-image: url(../img/bowls/image-29.jpg)}
   20%  {background-image: url(../img/fish/image-9.jpg)}
   30%  {background-image: url(../img/fish/image-9.jpg)}
   40%  {background-image: url(../img/plates/image-6.jpg)}
@@ -27,7 +27,7 @@ a:visited, a:after {
   70%  {background-image: url(../img/cups/image-12.jpg)}
   80%  {background-image: url(../img/crocks/image-5.jpg)}
   90%  {background-image: url(../img/crocks/image-5.jpg)}
-  100% {background-image: url(../img/bowls/image-4.JPG)}
+  100% {background-image: url(../img/bowls/image-29.JPG)}
 }
 @keyframes clear-image-change {
   0%   {background-image: url(../img/extra/transparents/IMG_4265-clear.png)}
@@ -48,9 +48,10 @@ a:visited, a:after {
 }
 
 #home-image {
-  /*border: 1px solid yellow;*/
-  height: 346px;
-  width: 518px;
+  /*border: 2px solid black;*/
+  /*box-shadow: 1px 1px 10px #000;*/
+  height: 519px;
+  width: 777px;
   background-size: cover;
   margin: 0;
   background-repeat: no-repeat;
@@ -129,7 +130,8 @@ a:visited, a:after {
 }
 
 #contact-image {
-  /*border: 1px solid yellow;*/
+  /*border: 3px solid black;*/
+  box-shadow: 1px 1px 10px #000;
   height: 300px;
   width: 300px;
   margin: 0;
