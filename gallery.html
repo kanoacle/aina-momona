@@ -2,6 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+<script src="galleria/galleria-1.5.7.min.js"></script>
   <link rel="stylesheet" href="css/style.css">
   <title>Gallery - ʻĀina Momona</title>
 </head>
@@ -15,6 +20,28 @@
       <li> <a href="contact.html">Contact</a></li>
     </ul>
   </nav>
-<script src="js/gallery.js"></script>
+  <div class="galleria">
+    <img src="img/bowls/image-1.jpg">
+    <img src="img/bowls/image-2.jpg">
+    <img src="img/bowls/image-3.jpg">
+    <img src="img/bowls/image-4.jpg">
+    <img src="img/bowls/image-5.jpg">
+    <img src="img/bowls/image-6.jpg">
+    <img src="img/bowls/image-7.jpg">
+    <img src="img/bowls/image-8.jpg">
+    <img src="img/bowls/image-9.jpg">
+    <img src="img/bowls/image-10.jpg">
+    <img src="img/bowls/image-11.jpg">
+    <img src="img/bowls/image-12.jpg">
+    <img src="img/bowls/image-13.jpg">
+    <img src="img/bowls/image-14.jpg">
+    <img src="img/bowls/image-15.jpg">
+</div>
+<script>
+(function() {
+    Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+    Galleria.run('.galleria');
+}());
+</script>
 </body>
 </html>

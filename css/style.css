@@ -121,13 +121,13 @@ a:visited, a:after {
 }
 
 #top-nav ul a:hover {
-  text-decoration: underline !important;
-  text-decoration-style: solid;
+  text-shadow: -1px -1px #0ad16a !important;
 }
 
 #top-nav ul a.active {
   text-decoration: underline !important;
-  text-decoration-style: double !important;
+  text-decoration-style: solid !important;
+  text-decoration-color: #0ad16a !important;
 }
 
 #contact-image {
@@ -213,3 +213,12 @@ a:visited, a:after {
     line-height: 1.5;
   }
 }
+
+.galleria {
+  /*border: 1px solid red;*/
+  height: 519px;
+  width: 777px;
+  background; #000;
+  margin: 100px 30% 0;
+}
+
