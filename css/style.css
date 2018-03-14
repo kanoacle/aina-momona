@@ -102,6 +102,7 @@ a:visited, a:after {
   margin: 10px 0;
   font-size: 20px;
   text-transform: uppercase;
+  color: #000;
   cursor: pointer;
 }
 
@@ -120,15 +121,10 @@ a:visited, a:after {
   font-size: 24px;
 }
 
-#top-nav ul a:hover {
-  text-shadow: -1px -1px #0ad16a !important;
+#top-nav ul a.active {
+  color: #777 !important;
 }
 
-#top-nav ul a.active {
-  text-decoration: underline !important;
-  text-decoration-style: solid !important;
-  text-decoration-color: #0ad16a !important;
-}
 
 #contact-image {
   /*border: 3px solid black;*/
@@ -222,7 +218,12 @@ a:visited, a:after {
   /*border: 1px solid red;*/
   height: 519px;
   width: 777px;
+}
+.gallery-1 {
   background; #000;
   margin: 50px 30% 0;
+}
+.gallery-2 {
+  margin: 50px 10% 0;
 }
 
