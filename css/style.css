@@ -214,11 +214,15 @@ a:visited, a:after {
   }
 }
 
+#galleries {
+  /*border: 1px solid red;*/
+  margin: 75px 0 50px;
+}
 .galleria {
   /*border: 1px solid red;*/
   height: 519px;
   width: 777px;
   background; #000;
-  margin: 100px 30% 0;
+  margin: 50px 30% 0;
 }
 
